@@ -1,0 +1,16 @@
+# Build outputs
+third_party/gfxreconstruct/android/.gradle/
+third_party/gfxreconstruct/android/**/build/
+third_party/gfxreconstruct/build/
+
+# Captures can be huge
+*.gfxr
+*.gfxr.gz
+*.gfxr.zstd
+captures/*.gfxr
+captures/*.gfxr.gz
+captures/*.gfxr.zstd
+
+# Android / macOS
+.DS_Store
+local.properties
